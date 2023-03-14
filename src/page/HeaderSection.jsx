@@ -1,7 +1,7 @@
 const HeaderSection = () => {
     return (
         <section className="md:pt-5">
-            <div className="md:flex justify-around items-center mt-8 px-8 lg:px-20">
+            <div className="md:flex justify-around items-center mt-8 px-8 md:px-10 lg:px-20">
                 <h1 className="font-medium md:text-[45px] lg:text-[64px] text-[40px] leading-relaxed md:w-[60%]">Ready to <br /> find your new home</h1>
                 <div className="lg:w-[28%] md:w-[40%] md:flex items-start justify-start mt-4 md:mt-0">
                     <div className="w-20 h-1 bg-bg-primary-color mt-3 mr-4 rounded-full md:mt-8"></div>
@@ -9,7 +9,7 @@ const HeaderSection = () => {
                 </div>
             </div>
             <div className="mt-10 md:mt-10 overflow-x-clip relative">
-                <img src="./image/main-header-1.png" alt="" className="scale-125 md:scale-100 pr-20" />
+                <img src="./image/main-header-1.png" alt="" className="scale-125 md:scale-100 pr-16" />
                 <div className="bg-white overflow-hidden md:bg-white md:w-[90%] lg:w-[80%] md:absolute -bottom-10 right-0 lg:right-0 md:rounded-sm md:shadow-lg lg:-bottom-14 mr-10 md:mr-0">
                     <div className="grid grid-cols-2 md:grid-cols-5 items-center justify-between gap-5 lg:gap-2 text-sm lg:text-base py-5 px-5 lg:py-8 md:px-10 mt-5 md:mt-0">
                         <div>

@@ -1,3 +1,26 @@
 @tailwind base;
+
+/* Firefox */
+.testimoni {
+  scrollbar-width: thin;
+  scrollbar-color: #828282;
+}
+
+/* Chrome, Edge, and Safari */
+.testimoni::-webkit-scrollbar {
+  height: 5px;
+}
+
+.testimoni::-webkit-scrollbar-track {
+  border-radius: 5px;
+  opacity: 0.5;
+}
+
+.testimoni::-webkit-scrollbar-thumb {
+  background-color: #828282;
+  border-radius: 14px;
+  opacity: 0.8;
+}
+
 @tailwind components;
 @tailwind utilities;
