@@ -23,7 +23,7 @@ const HouseList = (props) => {
 
 const HouseListSection = () => {
     return (
-        <section className="mt-10 px-8 md:px-16 md:mt-24 lg:px-32 lg:mt-40">
+        <section className="mt-10 px-5 md:px-16 md:mt-24 lg:px-32 lg:mt-40">
             <div className="flex items-center justify-between">
                 <div className="md:flex justify-start items-center gap-5 lg:gap-10">
                     <h1 className="text-2xl md:text-3xl font-medium lg:text-4xl">The latest</h1>

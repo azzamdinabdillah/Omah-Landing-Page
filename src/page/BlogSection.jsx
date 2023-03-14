@@ -2,7 +2,7 @@ import TitleSection from "../components/TitleSection";
 
 const BlogSection = () => {
   return (
-    <section className="px-8 md:px-16 lg:px-32 mt-14 lg:mt-32">
+    <section className="px-5 md:px-16 lg:px-32 mt-14 lg:mt-32">
       <TitleSection textTitle={"Always check our latest blog"} />
 
       <div className="mt-10 md:grid grid-cols-6 gap-5">

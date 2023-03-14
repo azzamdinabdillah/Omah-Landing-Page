@@ -1,7 +1,7 @@
 const HeaderSection = () => {
     return (
-        <section className="md:pt-5">
-            <div className="md:flex justify-around items-center mt-8 px-8 md:px-10 lg:px-20">
+        <section className="md:pt-1">
+            <div className="md:flex justify-around items-center mt-2 px-8 md:px-10 lg:px-20">
                 <h1 className="font-medium md:text-[45px] lg:text-[64px] text-[40px] leading-relaxed md:w-[60%]">Ready to <br /> find your new home</h1>
                 <div className="lg:w-[28%] md:w-[40%] md:flex items-start justify-start mt-4 md:mt-0">
                     <div className="w-20 h-1 bg-bg-primary-color mt-3 mr-4 rounded-full md:mt-8"></div>

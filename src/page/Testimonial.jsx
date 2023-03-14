@@ -24,7 +24,7 @@ const SingleTestimonial = (props) => {
 
 const Testimonial = () => {
   return (
-    <section className="px-8 md:px-16 lg:px-32">
+    <section className="px-5 md:px-16 lg:px-32">
       <TitleSection
         textTitle={"Some people are very satisfied buying a house here"}
       />
