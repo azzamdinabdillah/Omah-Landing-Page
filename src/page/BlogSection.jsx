@@ -7,7 +7,7 @@ const BlogSection = () => {
 
       <div className="mt-10 md:grid grid-cols-6 gap-5">
         <div className="col-span-4 lg:col-span-3">
-          <div className="relative outline-none border-none">
+          <div className="relative outline-none border-none" data-aos="fade-right">
             <img
               src="./image/house-4.png"
               alt=""
@@ -27,17 +27,17 @@ const BlogSection = () => {
               </div>
             </div>
           </div>
-          <h1 className="text-[#1B2021] font-medium mt-3 w-[100%] text-lg md:text-xl lg:text-2xl lg:mt-5">
+          <h1 data-aos="fade-right" data-aos-delay="100" className="text-[#1B2021] font-medium mt-3 w-[100%] text-lg md:text-xl lg:text-2xl lg:mt-5">
             Tips and tricks in choosing a house
           </h1>
-          <p className="text-sm mt-2 text-text-primary-color w-[90%]">
+          <p data-aos="fade-right" data-aos-delay="100" className="text-sm mt-2 text-text-primary-color w-[90%]">
             tips and tricks to buy a house easily here is to buy at a low price
           </p>
         </div>
 
         <div className="col-span-2 lg:col-span-3">
           <div className="flex flex-col-reverse lg:justify-end lg:flex-row items-start mt-8 md:mt-0 gap-5">
-            <div className="lg:translate-y-5">
+            <div className="lg:translate-y-5" data-aos="fade-right" data-aos-delay="100">
               <h1 className="text-[#1B2021] font-medium w-[100%] text-lg md:text-xl lg:text-2xl lg:leading-[1.5]">
                 Create a clean and elegant home
               </h1>
@@ -45,10 +45,10 @@ const BlogSection = () => {
                 Albert Firdaus
               </p>
             </div>
-            <img src="./image/interior-1.png" alt="" className="w-full lg:w-[286px] lg:h-[184px]" />
+            <img src="./image/interior-1.png" alt="" className="w-full lg:w-[286px] lg:h-[184px]" data-aos="fade-right" />
           </div>
-          <div className="flex flex-col-reverse lg:justify-end lg:flex-row items-start mt-8 md:mt-5 lg:mt-5 gap-5 ">
-            <div className="lg:translate-y-5">
+          <div className="flex flex-col-reverse lg:justify-end lg:flex-row items-start mt-8 md:mt-5 lg:mt-5 gap-5 " >
+            <div className="lg:translate-y-5" data-aos="fade-right" data-aos-delay="100">
               <h1 className="text-[#1B2021] font-medium w-[100%] text-lg md:text-xl lg:text-2xl lg:leading-[1.5]">
               Good paint color for home
               </h1>
@@ -56,7 +56,7 @@ const BlogSection = () => {
                 Albert Firdaus
               </p>
             </div>
-            <img src="./image/interior-2.png" alt="" className="w-full lg:w-[286px] lg:h-[184px]" />
+            <img src="./image/interior-2.png" alt="" className="w-full lg:w-[286px] lg:h-[184px]" data-aos="fade-right" />
           </div>
           
         </div>

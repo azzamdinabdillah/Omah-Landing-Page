@@ -5,14 +5,14 @@ import HouseImg3 from '/image/house-3.png';
 const HouseList = (props) => {
     return (
         <div className="pt-5 md:pt-0 mb-5">
-            <div className="relative outline-none border-none">
+            <div className="relative outline-none border-none" data-aos="fade-down">
                 <img src={props.image} alt="" className="rounded outline-none border-none" />
                 <div className="bg-white absolute bottom-0 left-0 p-3 outline-none border-none rounded-tr-md overflow-hidden">
                     <h1 className="text-bg-primary-color">{props.room} room</h1>
                 </div>
                 <img src="./image/love-icon-2.png" alt="" className="p-3 rounded-full absolute top-0 right-0 lg:right-8 bg-white m-4" />
             </div>
-            <div className="mt-3"> 
+            <div className="mt-3" data-aos="fade-right" data-aos-delay="100"> 
                 <h1 className="text-[23px] md:text-2xl">{props.homeName}</h1>
                 <p className="text-text-primary-color my-3 text-xs md:text-sm">{props.streetName}</p>
                 <p className="text-bg-primary-color text-lg md:text-xl">${props.price}</p>

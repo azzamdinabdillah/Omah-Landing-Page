@@ -5,7 +5,7 @@ import TestimoniImg2 from "/image/testimoni-2.png";
 const SingleTestimonial = (props) => {
   return (
     <div className="flex-none w-[85%] md:w-[45%] lg:w-[35%]">
-      <div className="relative outline-none border-none">
+      <div className="relative outline-none border-none" data-aos="fade-right">
         <img
           src={props.image}
           alt=""
@@ -15,7 +15,7 @@ const SingleTestimonial = (props) => {
           <h1 className="text-bg-primary-color">{props.name}</h1>
         </div>
       </div>
-      <h1 className="text-[#1B2021] font-medium mt-5 w-[95%] text-base md:text-xl">
+      <h1 className="text-[#1B2021] font-medium mt-5 w-[95%] text-base md:text-xl" data-aos="fade-right" data-aos-delay="100">
         {props.description}
       </h1>
     </div>

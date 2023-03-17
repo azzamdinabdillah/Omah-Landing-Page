@@ -5,9 +5,21 @@ import EmailSection from './page/EmailSection';
 import HeaderSection from './page/HeaderSection';
 import HouseListSection from './page/HouseListSection';
 import Testimonial from './page/Testimonial';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function App() {
 
+  useEffect(() => {
+    Aos.init({
+      offset: (window.innerWidth <= 768) ? 200 : (window.innerWidth >= 768 && window.innerWidth <= 1024) ? 400 : (window.innerWidth >= 1024) ? 540 : 200,
+      // duration: 300,
+      // easing: 'ease-in-sine',
+    })
+  }, []);
+
+  // console.log(window.innerHeight)
   return (
     <div className="App bg-[#FCFCFC] pb-20">
       <Navbar/>
